@@ -3,7 +3,7 @@
 Filter exported social media data
 
 ## Intent
-User will be able to load data from Twitter or Facebook, via data download, in order to sort from oldest-to-newest, something either platform down not natively allow.
+User will be able to load data from Twitter or Facebook, via data download, in order to sort from oldest-to-newest.
 A dashboard will also be built to provide an overview of posting metrics (data points TBD).
 
 ### Process Flow

@@ -1,5 +1,7 @@
 import React from 'react';
 import { readDir } from './common/readWriteDir';
+import logoImage from './assets/logo-edit.png';
+import './App.css';
 
 function App() {
 	const handleClick = async () => {
@@ -9,13 +11,13 @@ function App() {
 	return (
 		<div className='App'>
 			<header>
-				<p>
-					<img src='./assets/logo-edit.png' alt='' />
-					<button id='directory-btn' type='button' onClick={handleClick}>
-						Generate
-					</button>
-				</p>
+				<img className='logo' src={logoImage} alt='' />
 			</header>
+			<div className='container'>
+				<button id='directory-btn' type='button' onClick={handleClick}>
+					Generate
+				</button>
+			</div>
 		</div>
 	);
 }

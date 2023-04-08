@@ -1,11 +1,10 @@
-import React from 'react';
-import { readDir } from './common/readWriteDir';
-import logoImage from './assets/logo-edit.png';
 import './App.css';
+import logoImage from './assets/logo-edit.png';
+import generateJson from './common/generate-json';
 
 function App() {
 	const handleClick = async () => {
-		readDir();
+		generateJson();
 	};
 
 	return (
